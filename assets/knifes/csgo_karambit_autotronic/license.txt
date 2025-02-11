@@ -1,0 +1,11 @@
+Model Information:
+* title:	CSGO Karambit Autotronic
+* source:	https://sketchfab.com/3d-models/csgo-karambit-autotronic-8829eb899c6c4845a2e754510a71660f
+* author:	Xipeng Wang (https://sketchfab.com/1741896354)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "CSGO Karambit Autotronic" (https://sketchfab.com/3d-models/csgo-karambit-autotronic-8829eb899c6c4845a2e754510a71660f) by Xipeng Wang (https://sketchfab.com/1741896354) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
