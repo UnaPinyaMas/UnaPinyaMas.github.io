@@ -63,3 +63,39 @@ window.addEventListener('resize', function () {
     camera.updateProjectionMatrix();
     renderer.setSize(window.innerWidth, window.innerHeight);
 });
+
+// Control del menú
+const hamburger = document.querySelector('.hamburger input');
+const menu = document.getElementById('menu');
+
+hamburger.addEventListener('change', function() {
+    if (this.checked) {
+        menu.style.display = 'block';
+    } else {
+        menu.style.display = 'none';
+    }
+});
+
+// Cambiar el color de fondo
+const bgColorInput = document.getElementById('bgColor');
+bgColorInput.addEventListener('input', function() {
+    renderer.setClearColor(this.value);
+});
+
+// Cambiar el color de la luz
+const lightColorInput = document.getElementById('lightColor');
+lightColorInput.addEventListener('input', function() {
+    directionalLight.color.set(this.value);
+});
+
+// Cambiar el zoom
+const zoomInput = document.getElementById('zoom');
+zoomInput.addEventListener('input', function() {
+    controls.maxDistance = this.value;
+});
+
+// Cambiar la intensidad de la luz
+const lightIntensityInput = document.getElementById('lightIntensity');
+lightIntensityInput.addEventListener('input', function() {
+    directionalLight.intensity = this.value;
+});
